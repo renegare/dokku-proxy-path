@@ -1,0 +1,4 @@
+[plugin]
+description = "dokku proxy path configuration generator"
+version = "0.0.1"
+[plugin.config]

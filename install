@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
+
+echo "Current directory ... $(pwd)"
+cd $(dirname "$0")
+echo "Moved to directory ... $(pwd)"
+echo "installed dokku proxy-path"
